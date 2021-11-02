@@ -1,0 +1,56 @@
+@import '../variables.css';
+
+.content-services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+    transition: box-shadow .3s linear;
+}
+
+.container-services {
+    display: flex;
+    width: 48%;
+}
+
+
+
+.content-img {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    background: #333
+}
+.content-info {
+    width: 100%;
+    margin: 0 0 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20;
+}
+
+.content-info .title-service {
+    width: 100%;
+    font-weight: 600;
+    color: var(--colorTitle);
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+.content-info .extra-info {
+    width: 48%;
+    margin: 0 5px 0 0;
+}   
+
+.extra-info .text {
+    display: block;
+    margin: 0 0 10px 0;
+    color: var(--colortitle);
+    font-size: 14px;
+}
+.extra-info .text span {
+    color: var(--colorFont);
+    font-weight:  500;
+}

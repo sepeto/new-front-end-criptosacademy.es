@@ -1,0 +1,58 @@
+@import "../variables.css";
+
+.search {
+    margin: 0 0 40px;
+    display: flex;
+}
+
+.search #search-input {
+    border: 1px solid #55555570;
+    background: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: var(--borderRadius);
+    color: var(--colorFont);
+    width: 100%;
+}
+
+.search .search-label {
+    border-radius: var(--borderRadius);
+    margin: 0 0 0 10px;
+    background: var(--colorPrimary);
+    color: #fff;
+    padding: 15px 20px;
+    transition: all .3s linear;
+}
+
+.search .search-label:hover {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-image-source: var(--colorPrimary);
+    background: transparent;
+    color: var(--colorFont);
+}
+
+/* Filter */
+
+.filter-group {
+    border: 1px solid #55555570;
+    padding: 15px 20px;
+    border-radius:var(--borderRadius);
+    margin: 0 0 20px 0;
+}
+
+.title-filter {
+    font-weight: 600;
+    color: var(--colorTitle);
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    display: block;
+}
+
+.title-filter .icon-filter {
+    font-size: 25px;
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}

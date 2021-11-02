@@ -1,0 +1,44 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background: #FAFAFD;
+    padding: 40px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.home::-webkit-scrollbar {
+    width: 10px;
+    background: #f8f8f8;
+}
+.home::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #333;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.container-filter {
+    width: 30%;
+}
+.container-graphic {
+    width: 67%;
+    height: fit-content;
+}
+
+.container-style {
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+}
+
+
+.container-style:hover {
+    box-shadow: 0 0 15px 5px rgb(0 0 0 / 10%);
+}
